@@ -24,6 +24,8 @@ Napríklad: e-mail, telefónne čísla, osobné údaje a pod..
 (https://www.google.com/recaptcha)
 -	Google Authenticator = je softvérový token, ktorý implementuje verifikačné služby s dvojstupňovým overovaním pomocou algoritmu hesla jednorazového hesla.
 (https://myaccount.google.com/)
+
+
 IvaRo
 
 
