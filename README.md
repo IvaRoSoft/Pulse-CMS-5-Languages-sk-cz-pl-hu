@@ -25,6 +25,11 @@ Napríklad: e-mail, telefónne čísla, osobné údaje a pod..
 -	Google Authenticator = je softvérový token, ktorý implementuje verifikačné služby s dvojstupňovým overovaním pomocou algoritmu hesla jednorazového hesla.
 (https://myaccount.google.com/)
 
+***********************************************
+Ďalšie preklady najdete na stránke
+https://github.com/yuzoolcode/pulsecms-languages
+***********************************************
+
 
 IvaRo
 
