@@ -106,6 +106,11 @@ $lang_create_embed_url = "Az URL beágyazása:";
 $lang_create_embed_html = "HTML beágyazása:";
 $lang_create_embed_php = "PHP beágyazása:";
 $lang_create_block_move = "Blokkot áthelyezni a";
+$lang_create_media_move = "A médiak áthelyezése";
+$lang_create_folder_error = 'Nem hozhat létre egy új mappát';
+$lang_create_folder_error_exists = 'Új mappa már létezik';
+$lang_create_folder_error_no_base = 'Nincs alapmappa';
+$lang_create_folder_error_no_folder = 'Nem lett megadva mappa neve';
 
 // Delete - Törlés
 $lang_delete = 'Biztosan törölni akarja';
@@ -152,6 +157,10 @@ $lang_newsletter_thanks = "Köszönöm!";
 $lang_newsletter_try_again = 'Próbálja újra';
 $lang_newsletter_placeholder = 'E-mail írása';
 $lang_newsletter_send = "Regisztráció";
+
+// Redactor
+$lang_redactor_mail_button = 'E-mailt ad hozzá a szöveghez';
+$lang_redactor_mail_link_title = 'E-mailt küld nekem';
 
 // Stats - Statisztika
 $lang_stats_today = "Látogatók";
@@ -236,6 +245,11 @@ $lang_settings_upload = 'Engedélyezett fájlok feltöltéséhez';
 $lang_settings_upload_tooltip = 'Használjon vesszőt a fájlkiterjesztések szétválasztásához';
 $lang_settings_wysiwygpages = 'Engedélyezze a WYSIWYG szerkesztőt a lapokon (egyébként HTML és Markdown)';
 
+// Settings: Made in Pulse
+$lang_settings_title_made_in_pulse = 'Készült a Pulseba';
+$lang_settings_made_in_pulse = 'Made in Pulse kitűzőt adunk';
+$lang_settings_made_in_pulse_label = 'Engedélyezze a sablonhoz a Made in Pulse jelvényt';
+
 // Settings: Media - Média
 $lang_settings_title_media = 'Média';
 $lang_settings_jpeg = 'JPEG minőség';
@@ -256,6 +270,11 @@ $lang_settings_title_managenavigation = 'Webhely-navigáció kezelése';
 $lang_settings_title_google = 'Google Analitika';
 $lang_settings_google = 'Analytics követési kód';
 $lang_settings_google_tooltip = 'Illessze be ide a Google Analytics követőkódrészletét';
+
+// Settings: GeoIP
+$lang_settings_title_geoip = 'GeoIP';
+$lang_settings_geoip = 'GeoIP adatok webhelystatisztika';
+$lang_settings_geoip_label = 'Engedélyezze GeoIP a statisztika itt';
 
 // Settings: OGP - Open Graph protocol >> http://ogp.me/
 $lang_settings_title_ogp = '(OGP) Nytot grafikus protokollok';
@@ -282,7 +301,7 @@ $lang_settings_rssdescription_tooltip = 'Ez a blogom.';
 $lang_settings_rssurl = 'Blog URL';
 $lang_settings_rssurl_tooltip = 'http://example.com/blog';
 $lang_settings_rsslang = 'Nyelvi kód'; // Dátum formátum
-$lang_settings_rsslang_tooltip = 'hu (http://www.rssboard.org/rss-language-codes)';
+$lang_settings_rsslang_tooltip = 'hu_HU (http://www.rssboard.org/rss-language-codes)';
 $lang_settings_rssurlprefix = 'Blog URL előtag';
 $lang_settings_rssurlprefix_tooltip = '(blog) lenne blog-1-főcím-e, szintén szerkeszthető a htaccess-ban';
 
