@@ -106,6 +106,11 @@ $lang_create_embed_url = "Vložiť URL:";
 $lang_create_embed_html = "Vložiť HTML:";
 $lang_create_embed_php = "Vložiť PHP:";
 $lang_create_block_move = "Presunúť blok do"; 
+$lang_create_media_move = "Presuňte média do";
+$lang_create_folder_error = 'Nie je možné vytvoriť novú zložku';
+$lang_create_folder_error_exists = 'Nový priečinok už existuje';
+$lang_create_folder_error_no_base = 'Neboli nájdené žiadne základné priečinky';
+$lang_create_folder_error_no_folder = 'Nebolo zadané žiadne meno priečinka';
 
 // Delete - Vymazať
 $lang_delete = 'Skutočne chcete odstrániť ';
@@ -152,6 +157,10 @@ $lang_newsletter_thanks ='Vďaka!';
 $lang_newsletter_try_again ='Skúste to znova';
 $lang_newsletter_placeholder ='Zadajte e-mail';
 $lang_newsletter_send ='Prihlásiť sa';
+
+// Redactor
+$lang_redactor_mail_button = 'Pridá e-mail do textu';
+$lang_redactor_mail_link_title = 'Pošlite mi e-mail';
 
 // Stats - Štatistika
 $lang_stats_today = "Návštevníci";
@@ -236,6 +245,11 @@ $lang_settings_upload = 'Povolené súbory na nahrávanie';
 $lang_settings_upload_tooltip = 'Použite čiarku na oddelenie prípony súborov';
 $lang_settings_wysiwygpages = 'V Stránkach povoliť WYSIWYG editor (inak HTML a Markdown)';
 
+// Settings: Made in Pulse
+$lang_settings_title_made_in_pulse = 'Vyrobené v Pulse';
+$lang_settings_made_in_pulse = 'Made in Pulse odznak pridané';
+$lang_settings_made_in_pulse_label = 'Povoliť odznak Made in Pulse pre šablónu';
+
 // Settings: Media
 $lang_settings_title_media = 'Media';
 $lang_settings_jpeg = 'Kvalita JPEG';
@@ -256,6 +270,11 @@ $lang_settings_title_managenavigation = 'Úprava navigácie na stránkach';
 $lang_settings_title_google = 'Google Analýza';
 $lang_settings_google = 'Kód služby Analytics';
 $lang_settings_google_tooltip = 'Tu pridajte útržok kódu služby Google Analytics';
+
+// Settings: GeoIP
+$lang_settings_title_geoip = 'GeoIP';
+$lang_settings_geoip = 'Údaje GeoIP pre štatistiky webu';
+$lang_settings_geoip_label = 'Povoliť GeoIP pre štatistikách tu';
 
 // Settings: OGP - Open Graph protocol >> http://ogp.me/
 $lang_settings_title_ogp = '(OGP) Otvorené grafické protokoly';
@@ -282,7 +301,7 @@ $lang_settings_rssdescription_tooltip = 'Toto je môj Blog.';
 $lang_settings_rssurl = 'Blog URL';
 $lang_settings_rssurl_tooltip = 'http://example.com/blog';
 $lang_settings_rsslang = 'Kód jazyka'; // Formát dátumu
-$lang_settings_rsslang_tooltip = 'sk (http://www.rssboard.org/rss-language-codes)';
+$lang_settings_rsslang_tooltip = 'sk_SK (http://www.rssboard.org/rss-language-codes)';
 $lang_settings_rssurlprefix = 'Predpona adresy URL blogu';
 $lang_settings_rssurlprefix_tooltip = '(blog) bude: blog-1-titulok-príspevku, tiež upraviť v htaccess';
 
