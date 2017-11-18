@@ -106,6 +106,11 @@ $lang_create_embed_url = "Umieść URL:";
 $lang_create_embed_html = "Umieść HTML:";
 $lang_create_embed_php = "Umieść PHP:";
 $lang_create_block_move = "Przenieś blok do"; 
+$lang_create_media_move = "Przenieś media do";
+$lang_create_folder_error = 'Nie można utworzyć nowego folderu';
+$lang_create_folder_error_exists = 'Nowy folder już istnieje';
+$lang_create_folder_error_no_base = 'Nie znaleziono folderu podstawowego';
+$lang_create_folder_error_no_folder = 'Nie wprowadzono nazwy folderu';
 
 // Delete - Usuń
 $lang_delete = "Czy na pewno chcesz usunąć";
@@ -152,6 +157,10 @@ $lang_newsletter_thanks = 'Dzięki!';
 $lang_newsletter_try_again = 'Spróbuj ponownie';
 $lang_newsletter_placeholder = 'E-mail';
 $lang_newsletter_send = 'Zapisz';
+
+// Redactor
+$lang_redactor_mail_button = 'Dodaje wiadomość e-mail w tekście';
+$lang_redactor_mail_link_title = 'Wyślij do mnie e-mail';
 
 // Stats - Statystyki
 $lang_stats_today = "Goście dzisiaj";
@@ -236,6 +245,11 @@ $lang_settings_upload = 'Dozwolone, aby przesłać pliki';
 $lang_settings_upload_tooltip = 'Użyj przecinków, aby rozdzielić rozszerzenia plików';
 $lang_settings_wysiwygpages = 'Włącz edytor WYSIWYG na stronach (inaczej HTML i Markdown)';
 
+// Settings: Made in Pulse
+$lang_settings_title_made_in_pulse = 'Wykonane w Pulse';
+$lang_settings_made_in_pulse = 'Made in Pulse odznaki dodał';
+$lang_settings_made_in_pulse_label = 'Włącz oznaczenie Made in Pulse dla szablonu';
+
 // Settings: Media
 $lang_settings_title_media = 'Mediów';
 $lang_settings_jpeg = 'Jakość JPEG';
@@ -256,6 +270,11 @@ $lang_settings_title_managenavigation = 'Zarządzaj nawigacją w witrynie';
 $lang_settings_title_google = 'Google Analityka';
 $lang_settings_google = 'Kod śledzenia Analytics';
 $lang_settings_google_tooltip = 'Wklej tutaj fragment kodu śledzenia Google Analytics';
+
+// Settings: GeoIP
+$lang_settings_title_geoip = 'GeoIP';
+$lang_settings_geoip = 'Dane dla GeoIP statystyk witryny';
+$lang_settings_geoip_label = 'Włącz tutaj GeoIP dla statystyk';
 
 // Settings: OGP - Open Graph protocol >> http://ogp.me/
 $lang_settings_title_ogp = '(OGP) Otwórz protokół graficzny';
@@ -282,7 +301,7 @@ $lang_settings_rssdescription_tooltip = 'To jest mój blog.';
 $lang_settings_rssurl = 'Blog URL';
 $lang_settings_rssurl_tooltip = 'http://example.com/blog';
 $lang_settings_rsslang = 'Kod języka'; // Format daty
-$lang_settings_rsslang_tooltip = 'pl (http://www.rssboard.org/rss-language-codes)';
+$lang_settings_rsslang_tooltip = 'pl_PL (http://www.rssboard.org/rss-language-codes)';
 $lang_settings_rssurlprefix = 'Prefiks URL Bloga';
 $lang_settings_rssurlprefix_tooltip = '(blog) będzie blog-1-tytuł-wpisu, a także edytować w htaccess';
 
