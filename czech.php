@@ -24,7 +24,7 @@ $lang_autobackup_email_subject_line = 'Pulse automatické zálohování';
 $lang_autobackup_email_text =<<<EOD
 Dobrý den,
 
-Instalace programu Pulse generovala záložní soubor zip.
+Instalační program Pulse generoval záložní soubor zip.
 
 S pozdravem,
 Vaše Pulse CMS
@@ -94,10 +94,12 @@ $lang_create_file_or_folder_block = "Nový Blok";
 $lang_create_file_or_folder_blog  = "Nový Blog";
 $lang_create_file_or_folder_page  = "Nová Stránka";
 $lang_create_file_or_folder_media = "Nová Média";
+
 $lang_create_item_block = 'Vytvořit Blok';
 $lang_create_item_blog  = 'Vytvořit Blog';
 $lang_create_item_page  = 'Vytvoření stránky';
 $lang_create_item_media = 'Vytvořte položku Média';
+$lang_create_item_folder = 'Složka';
 $lang_create_button = "Vytvořit"; 
 $lang_create_tool_tip = "Stránky, bloky a příspěvky na blogu musí končit příponou '.txt'. Chcete-li vytvořit složku, neuvadejte příponou '.txt'.";
 $lang_create_embed = "Odkaz";
@@ -176,11 +178,11 @@ $lang_stats_todays_stats = "Dnes";
 $lang_stats_nodata = "Žádná data";
 $lang_stats_browsers  = "prohlížeče";
 $lang_stats_countries = "země";
-$lang_stats_devices   = "zařízení";
-$lang_stats_systems   = "Systémy";
+$lang_stats_devices = "zařízení";
+$lang_stats_systems = "Systémy";
 
 // Sweet Alert
-$lang_sweetalert_ok    = "OK";
+$lang_sweetalert_ok = "OK";
 $lang_sweetalert_saved = "Uloženo";
 
 // Custom post types - Vlastní příspěvek
@@ -249,6 +251,8 @@ $lang_settings_wysiwygpages = 'Povolit editor WYSIWYG na stránkách (jinak HTML
 $lang_settings_title_made_in_pulse = 'Vyrobeno v Pulse';
 $lang_settings_made_in_pulse = 'Made in Pulse odznak přidáno';
 $lang_settings_made_in_pulse_label = 'Povolit odznak Made in Pulse pro šablonu';
+$lang_settings_theme_meta_author_show       = 'Vložte autora témata';
+$lang_settings_theme_meta_author_show_label = 'Vložit autora téma do popisu meta';
 
 // Settings: Media
 $lang_settings_title_media = 'Media';
@@ -316,6 +320,13 @@ $lang_settings_smtphost_tooltip = 'mail.server.com';
 $lang_settings_smtpport = 'SMTP port';
 $lang_settings_smtpport_tooltip = '465';
 
+// Settings: SweetAlert
+$lang_settings_title_sweetalert = 'Nastavení upozornění';
+$lang_settings_sweetalert_active_tooltip  = 'Aktivovat upozornění';
+$lang_settings_sweetalert_active = 'Aktivace';
+$lang_settings_sweetalert_timeout_tooltip = 'Časový limit (milisekundy)';
+$lang_settings_sweetalert_timeout = 'Časový limit';
+
 // Settings: Pagination
 $lang_settings_title_pagination = 'Stránkování';
 $lang_settings_paginationlinks = 'odkazy na stránce zobrazovat';
@@ -375,12 +386,12 @@ $lang_settings_title_editorpagesaccess = 'Povolit Editor pro přístup k libovol
 $lang_settings_title_themes = 'Motivy (motivy stránek)';
 $lang_settings_themeselect = 'Motiv vybrán';
 $lang_settings_themeupload = 'Nahrát motiv ZIP';
-$lang_settings_title_plugins = 'Upravit vlastní položku příspěvku v:';
+$lang_settings_title_plugins = 'Pluginy';
 $lang_settings_pluginupload = 'Nahrát plugin ZIP';
 $lang_settings_title_customposts = 'Vlastní typy příspěvků';
 $lang_settings_managecustomposts = 'Spravujte vlastní příspěvek';
 $lang_settings_themeuploader = 'Nahrát nový soubor ZIP s motivy';
-$lang_settings_pluginupload = 'Nahrajte nový soubor ZIP plugin';
+$lang_settings_pluginuploader = 'Nahrajte nový soubor ZIP plugin';
 
 // Settings: Media
 $lang_settings_mediaupload = 'Nahrát mediální soubor';
@@ -403,6 +414,7 @@ $lang_settings_custompostmanage = 'spravovat záznamy';
 $lang_settings_custompostmanageedit = 'editovat';
 $lang_settings_custompostmanageadd = 'Přidat nový vlastní typ příspěvku';
 $lang_settings_title_custompostedit_title = 'Upravte vlastní typ příspěvku';
+$lang_settings_title_custompostedit_titlein = 'Upravit vlastní položku příspěvku v:';
 $lang_settings_custompostdefadd = 'Přidejte vlastní typ příspěvku';
 $lang_settings_custompostdeftypename = 'Název typu příspěvku';
 $lang_settings_custompostdefname = 'Název';
@@ -420,4 +432,3 @@ $lang_search_links = 'Odkaz na';
 
 // Page List
 $lang_pagelist = 'Seznam stránek';
- ?>
