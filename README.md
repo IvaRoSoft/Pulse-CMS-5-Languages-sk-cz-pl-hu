@@ -1,13 +1,13 @@
-# Pulse CMS 5 Languages
-Language files for Pulse CMS 5
+# Pulse CMS 5.0.2 Languages
+Language files for Pulse CMS 5.0.2
 Languages:
 Slovak
 Czech
 Polish
 Hungarian
 
-(Completed translation 18.11.2017)
-(Dokončený preklad 18.11.2017)
+(Completed translation 22.01.2018)
+(Dokončený preklad 22.01.2018)
 
 Upresnenie.
 V preklade boli použité tieto skratky a odkazy:
@@ -36,7 +36,7 @@ https://github.com/yuzoolcode/pulsecms-languages
 IvaRo
 
 
-Copyright (c) 2017 IvaRo Soft Slovakia
+Copyright (c) 2018 IvaRo Soft Slovakia
 Licence: MIT
 
 
