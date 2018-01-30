@@ -100,7 +100,6 @@ $lang_create_item_blog = 'Vytvoriť Blog';
 $lang_create_item_page = 'Vytvoriť Stránku';
 $lang_create_item_media = 'Vložiť Média'; 
 $lang_create_item_folder = 'Zložka';
-
 $lang_create_button = "Vytvoriť"; 
 $lang_create_tool_tip = "Stránky, bloky a príspevky na blogu musia končiť príponou '.txt'. Ak chcete vytvoriť priečinok, neuvádzajte príponou '.txt'.";
 $lang_create_embed = "Vložiť";
@@ -355,6 +354,10 @@ $lang_settings_formsubject_tooltip = 'Dostali ste e-mail';
 $lang_settings_formthanks = 'Po odoslaní povoľte automatickú odpoveď poďakovaním';
 $lang_settings_formredirect = 'Presmerovanie na poďakovanie';
 $lang_settings_formredirect_tooltip = 'http://moj_web.sk/podakovanie';
+$lang_settings_formcomment = 'Text/Štítok pre komentáre';
+$lang_settings_formcommentname_tooltip = 'Komentáre';
+$lang_settings_formphone = 'Text/Štítok pre telefón';
+$lang_settings_formphonename_tooltip = 'Telefón';
 
 // Settings: OTP One-Time Password
 $lang_settings_title_otp = 'Nastavenia jednorazového hesla (Admin)';
@@ -401,6 +404,10 @@ $lang_settings_mediaupload = 'Nahrajte mediálny súbor';
 $lang_settings_navigationtitle = 'Správa navigačných odkazov';
 $lang_settings_navigationsubtitle = 'Potiahnutím a presunutím zmeňte poradie zoznamu.';
 $lang_settings_navigationsubmenu = 'Pridajte podmenu';
+$lang_settings_navigation_non_pulse_page = 'Pridať externú položku do navigácie';
+$lang_settings_navigation_non_pulse_name = 'Názov';
+$lang_settings_navigation_non_pulse_url  = 'URL';
+$lang_settings_navigation_activate = 'Aktivovať';
 
 // Settings: Custom Post Type
 $lang_settings_custompostentries = 'Vlastné príspevky pre položky typu:';
@@ -422,6 +429,14 @@ $lang_settings_custompostdefname = 'Názov';
 $lang_settings_custompostdeftype = 'Typ';
 $lang_settings_custompostdeffield = 'Pole';
 $lang_settings_custompostcontent = 'Obsah';
+
+// Tags
+$lang_settings_title_tags = 'Značky (Tagy)';
+$lang_settings_manage_tags = 'Správa značiek';
+$lang_settings_tags_title = 'Spravovať značky';
+$lang_settings_tags_subtitle = 'Pridať / Odstrániť značky a popisy.';
+$lang_settings_tags_name = 'Meno';
+$lang_settings_tags_description = 'Popis';
 
 // Search
 $lang_search_title = 'Vyhľadávanie';
