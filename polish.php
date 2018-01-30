@@ -100,7 +100,6 @@ $lang_create_item_blog  = 'Utwórz Blog';
 $lang_create_item_page  = 'Stwórz stronę';
 $lang_create_item_media = 'Tworzyć Media';
 $lang_create_item_folder = 'Folder';
-
 $lang_create_button = "Utwórz";
 $lang_create_tool_tip = "Nowa strona, blog i blok musi kończyć się „.txt”. Aby utworzyć folder, nie należy dodawać żadnego przyrostka.";
 $lang_create_embed = "Osadzać";
@@ -355,6 +354,10 @@ $lang_settings_formsubject_tooltip = 'Otrzymałeś e-maila';
 $lang_settings_formthanks = 'Włącz automatyczną odpowiedź dziękuję po wysłaniu';
 $lang_settings_formredirect = 'Dzięki przekierowania';
 $lang_settings_formredirect_tooltip = 'http://twoj_portal.pl/dzięki';
+$lang_settings_formcomment = 'Tekst/Etykieta do komentarza';
+$lang_settings_formcommentname_tooltip = 'Komentarz';
+$lang_settings_formphone = 'Tekst/Etykieta na telefon';
+$lang_settings_formphonename_tooltip = 'Telefon';
 
 // Settings: OTP One-Time Password
 $lang_settings_title_otp = 'Ustawienia haseł jednorazowych (administrator)';
@@ -401,6 +404,10 @@ $lang_settings_mediaupload = 'Prześlij plik medialny';
 $lang_settings_navigationtitle = 'Zarządzaj linków nawigacyjnych';
 $lang_settings_navigationsubtitle = 'Przeciągnij i upuść, aby zmienić kolejność listy.';
 $lang_settings_navigationsubmenu = 'Dodaj podmenu';
+$lang_settings_navigation_non_pulse_page = 'Dodaj zewnętrzny wpis do nawigacji';
+$lang_settings_navigation_non_pulse_name = 'Nazwa';
+$lang_settings_navigation_non_pulse_url  = 'URL';
+$lang_settings_navigation_activate = 'Aktywuj';
 
 // Settings: Custom Post Type
 $lang_settings_custompostentries = 'Własne wpisy pocztowe dla:';
@@ -422,6 +429,13 @@ $lang_settings_custompostdefname = 'Nazwisko';
 $lang_settings_custompostdeftype = 'Typ';
 $lang_settings_custompostdeffield = 'Obszar';
 $lang_settings_custompostcontent = 'Treść';
+
+$lang_settings_title_tags = 'Tagi';
+$lang_settings_manage_tags = 'Zarządzaj tagi';
+$lang_settings_tags_title = 'Zarządzaj tagów';
+$lang_settings_tags_subtitle = 'Dodaj / Usuń tagi i opisy.';
+$lang_settings_tags_name = 'Nazwa';
+$lang_settings_tags_description = 'Opisanie';
 
 // Search - Szukanie
 $lang_search_title = 'Szukanie';
