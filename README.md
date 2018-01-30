@@ -6,8 +6,9 @@ Czech
 Polish
 Hungarian
 
-(Completed translation 22.01.2018)
-(Dokončený preklad 22.01.2018)
+(Completed translation 30.01.2018)
+
+(Dokončený preklad 30.01.2018)
 
 Upresnenie.
 V preklade boli použité tieto skratky a odkazy:
