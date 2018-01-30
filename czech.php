@@ -251,7 +251,7 @@ $lang_settings_wysiwygpages = 'Povolit editor WYSIWYG na stránkách (jinak HTML
 $lang_settings_title_made_in_pulse = 'Vyrobeno v Pulse';
 $lang_settings_made_in_pulse = 'Made in Pulse odznak přidáno';
 $lang_settings_made_in_pulse_label = 'Povolit odznak Made in Pulse pro šablonu';
-$lang_settings_theme_meta_author_show       = 'Vložte autora témata';
+$lang_settings_theme_meta_author_show = 'Vložte autora témata';
 $lang_settings_theme_meta_author_show_label = 'Vložit autora téma do popisu meta';
 
 // Settings: Media
@@ -354,6 +354,10 @@ $lang_settings_formsubject_tooltip = 'Dostali jste e-mail';
 $lang_settings_formthanks = 'Po odeslání povolte automatickou odpověď díky';
 $lang_settings_formredirect = 'Přesměrování poděkování';
 $lang_settings_formredirect_tooltip = 'http://muj_web.cs/diky';
+$lang_settings_formcomment = 'Text/Štítek pro komentáře';
+$lang_settings_formcommentname_tooltip = 'Komentáře';
+$lang_settings_formphone = 'Text/Štítek pro telefon';
+$lang_settings_formphonename_tooltip = 'Telefon';
 
 // Settings: OTP One-Time Password
 $lang_settings_title_otp = 'Nastavení jednorázového hesla (Správce)';
@@ -400,6 +404,10 @@ $lang_settings_mediaupload = 'Nahrát mediální soubor';
 $lang_settings_navigationtitle = 'Spravovat navigační odkazy';
 $lang_settings_navigationsubtitle = 'Přetáhněte a přesunte, chcete-li změnit pořadí seznamu.';
 $lang_settings_navigationsubmenu = 'Přidat podnabídku';
+$lang_settings_navigation_non_pulse_page = 'Přidat externí položku do navigace';
+$lang_settings_navigation_non_pulse_name = 'Název';
+$lang_settings_navigation_non_pulse_url  = 'URL';
+$lang_settings_navigation_activate = 'Aktivovat';
 
 // Settings: Custom Post Type
 $lang_settings_custompostentries = 'Vlastní položky příspěvku pro:';
@@ -421,6 +429,14 @@ $lang_settings_custompostdefname = 'Název';
 $lang_settings_custompostdeftype = 'Typ';
 $lang_settings_custompostdeffield = 'Pole';
 $lang_settings_custompostcontent = 'Obsah';
+
+// Tags
+$lang_settings_title_tags = 'Značky (Tagy)';
+$lang_settings_manage_tags = 'Spravovat značky';
+$lang_settings_tags_title = 'Spravujte značky';
+$lang_settings_tags_subtitle = 'Přidat / Smazat značky a popisy.';
+$lang_settings_tags_name = 'Název';
+$lang_settings_tags_description = 'Popis';
 
 // Search
 $lang_search_title = 'Vyhledávání';
