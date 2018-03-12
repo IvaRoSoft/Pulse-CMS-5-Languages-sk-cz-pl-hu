@@ -12,7 +12,7 @@
 $lang_cancel = "Anuluj";
 $lang_duplicate = "Duplikat";
 $lang_help = "Pomoc";
-$lang_help_url = "http://help.pulsecms.com/";
+$lang_help_url = "https://help.pulsecms.com/";
 $lang_settings = "Ustawienia";
 $lang_account = "Konto";
 $lang_save = "Zapisz";
@@ -140,6 +140,7 @@ $lang_blog_import_page_var = 'Nazwa zmiennej paginacja';
 $lang_blog_import_url = 'URL';
 $lang_blog_description = 'Opis Blogu';
 $lang_blog_tags = 'Tagi Blogów (oddzielone przecinkami)';
+$lang_blog_tags_short = 'Tagi Blogów';
 $lang_blog_url = 'URL Bloga';
 $lang_blog_index = 'Czy chcesz to indeksować?';
 $lang_blog_nofollow = 'Chcesz tego „nie stosować?”';
@@ -408,6 +409,12 @@ $lang_settings_navigation_non_pulse_page = 'Dodaj zewnętrzny wpis do nawigacji'
 $lang_settings_navigation_non_pulse_name = 'Nazwa';
 $lang_settings_navigation_non_pulse_url  = 'URL';
 $lang_settings_navigation_activate = 'Aktywuj';
+$lang_settings_navigation_add_menu = "Dodaj menu";
+$lang_settings_navigation_menus = "Menu";
+$lang_settings_title_debug_info  = 'Debugowanie';
+$lang_settings_manage_debug_info = 'Debugowanie menu';
+$lang_settings_title_update  = 'Aktualizacja menu';
+$lang_settings_manage_update = 'Aktualizacja';
 
 // Settings: Custom Post Type
 $lang_settings_custompostentries = 'Własne wpisy pocztowe dla:';
