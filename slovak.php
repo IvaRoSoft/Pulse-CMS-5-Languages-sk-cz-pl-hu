@@ -12,7 +12,7 @@
 $lang_cancel = "Zrušiť";
 $lang_duplicate = "Duplikát";
 $lang_help = "Pomocník";
-$lang_help_url ="http://help.pulsecms.com/";
+$lang_help_url ="https://help.pulsecms.com/";
 $lang_settings = "Nastavenie";
 $lang_account = "Účet";
 $lang_save = "Uložiť";
@@ -139,7 +139,8 @@ $lang_blog_import_page_max = 'Maximálny počet stránok';
 $lang_blog_import_page_var = 'Názov premennej stránkovania';
 $lang_blog_import_url = 'URL';
 $lang_blog_description = 'Blog Popis';
-$lang_blog_tags = 'Blog Tagy (Oddelené čiarkou)';
+$lang_blog_tags = 'Tagy blogu (Oddelené čiarkou)';
+$lang_blog_tags_short = 'Tagy blogu';
 $lang_blog_url = 'URL Blogu';
 $lang_blog_index = 'Chcete to indexované?';
 $lang_blog_nofollow = 'Prajete si to "nie nasledovať?"';
@@ -408,6 +409,12 @@ $lang_settings_navigation_non_pulse_page = 'Pridať externú položku do navigá
 $lang_settings_navigation_non_pulse_name = 'Názov';
 $lang_settings_navigation_non_pulse_url  = 'URL';
 $lang_settings_navigation_activate = 'Aktivovať';
+$lang_settings_navigation_add_menu = "Pridať ponuku";
+$lang_settings_navigation_menus = "Ponuky";
+$lang_settings_title_debug_info  = 'Ladiť';
+$lang_settings_manage_debug_info = 'Ladiť';
+$lang_settings_title_update  = 'Aktualizovať';
+$lang_settings_manage_update = 'Aktualizovať';
 
 // Settings: Custom Post Type
 $lang_settings_custompostentries = 'Vlastné príspevky pre položky typu:';
