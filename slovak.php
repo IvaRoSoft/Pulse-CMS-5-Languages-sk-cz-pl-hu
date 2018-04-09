@@ -457,14 +457,16 @@ $lang_search_links = 'Odkaz na';
 $lang_pagelist = 'Zoznam stránok';
 
 // Admin - Debug info
-$lang_debug_info_title     = 'Ladiť';
-$lang_debug_info_path      = 'Cesta';
+$lang_debug_info_title = 'Ladiť';
+$lang_debug_info_path = 'Cesta';
 $lang_debug_info_title_sub = 'Súborové povolenia';
-$lang_debug_info_button    = 'Stiahnuť';
-$lang_debug_info_text      = 'Stiahnuť súbor zip';
+$lang_debug_info_button = 'Stiahnuť';
+$lang_debug_info_text = 'Stiahnuť súbor zip';
+
 // Admin - Open
 $lang_open_meta_searchable = 'Zobraziť vo vyhľadávaní';
+
 // Admin - Update
-$lang_update_title     = 'Aktualizujte inštaláciu Pulse';
+$lang_update_title = 'Aktualizujte inštaláciu Pulse';
 $lang_update_title_sub = 'Nahrať nový súbor Pulse zip';
-$lang_update_button    = 'Aktualizovať';
+$lang_update_button = 'Aktualizovať';
