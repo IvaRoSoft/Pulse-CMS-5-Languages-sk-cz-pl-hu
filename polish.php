@@ -457,16 +457,17 @@ $lang_pagelist = 'Lista stron';
 
 // Page List
 $lang_pagelist = 'Lista stron';
+
 // Admin - Debug info
-$lang_debug_info_title     = 'Odpluskwić';
-$lang_debug_info_path      = 'Ścieżka';
+$lang_debug_info_title = 'Odpluskwić';
+$lang_debug_info_path = 'Ścieżka';
 $lang_debug_info_title_sub = 'Uprawnienia do plików';
-$lang_debug_info_button    = 'Pobieranie';
-$lang_debug_info_text      = 'Pobierz plik zip';
+$lang_debug_info_button = 'Pobieranie';
+$lang_debug_info_text = 'Pobierz plik zip';
 
 // Admin - Open
 $lang_open_meta_searchable = 'Pokaż w wyszukiwarce';
 // Admin - Update
-$lang_update_title     = 'Zaktualizuj instalację Pulse';
+$lang_update_title = 'Zaktualizuj instalację Pulse';
 $lang_update_title_sub = 'Prześlij nowy plik zip Pulse';
-$lang_update_button    = 'Aktualizacja';
+$lang_update_button = 'Aktualizacja';
