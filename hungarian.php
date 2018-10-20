@@ -45,6 +45,7 @@ $lang_nav_logout = "Kilépés";
 $lang_login_otp = "OTP jelszó";
 $lang_login_welcome = "Szia!";
 $lang_login_name = "Pulse Felhasználó";
+$lang_login_forgot_password_message = 'A jelszó volt újítva';
 
 // Home - Főoldal
 $lang_home_emptyfold = "Ez a mappa üres.";
@@ -131,6 +132,7 @@ $lang_blog_read_more = 'További információ';
 $lang_blog_back_button = 'Vissza';
 $lang_blog_older = 'Régebbi';
 $lang_blog_newer = "Újabb";
+$lang_blog_posted_in = 'Megjelent:';
 $lang_blog_error_folder = "Nem hozhat létre mappát a Blogban";
 $lang_blog_tool_tip = "A blog bejegyzéseket szám szerint rendezi, a legmagasabb szám a legfrissebb bejegyzés.";
 $lang_blog_import = 'Importálás';
@@ -237,6 +239,14 @@ $lang_settings_css_tooltip = 'Illessze be ide a CSS-et';
 $lang_settings_js = 'A JS felülírja az egész webhelyet';
 $lang_settings_js_tooltip = 'Illessze be itt a JS-t';
 
+//// Settings: GDPR
+$lang_settings_title_gdpr = 'GDPR';
+$lang_settings_gdpr_enable_in_form = 'Engedélyezze a GDPR-t az űrlapon';
+
+$lang_settings_gdpr_enable_in_tag = 'Engedélyezze a GDPR-t a címkén';
+$lang_settings_gdpr_tag_text = 'GDPR felugró szöveg';
+$lang_settings_gdpr_tag_text_tooltip = 'Testreszabhatja a GDPR szövegkörnyezetét';
+
 // Settings: Cache - Gyorsítótár
 $lang_settings_title_cache = 'Gyorsítótár';
 $lang_settings_cache = 'Az elülső gyorsítótár engedélyezése';
@@ -281,6 +291,11 @@ $lang_settings_title_geoip = 'GeoIP';
 $lang_settings_geoip = 'GeoIP adatok webhelystatisztika';
 $lang_settings_geoip_label = 'Engedélyezze GeoIP a statisztika itt';
 
+$lang_settings_geoip_api_key = 'GeoIP szolgáltatás API KEY';
+$lang_settings_geoip_api_key_tooltip = 'Adja hozzá a GeoIP API kulcsot';
+$lang_settings_geoip_service = 'GeoIP szolgáltatás';
+$lang_settings_geoip_service_tooltip = 'Add freegeoip, ipstack vagy snoopi';
+
 // Settings: OGP - Open Graph protocol >> http://ogp.me/
 $lang_settings_title_ogp = '(OGP) Nytot grafikus protokollok';
 $lang_settings_ogp = 'OGP eredeti kép';
@@ -295,6 +310,7 @@ $lang_settings_blogdisqususer = 'Disqus felhasználónév';
 $lang_settings_blogdisqususer_tooltip = 'Adja hozzá a Disqus fiók rövidnevét';
 $lang_settings_blogdate = 'Dátum formátum';
 $lang_settings_blogdate_tooltip = 'PHP dátumformátum. További információk: https://php.net/manual/en/function.date.php';
+$lang_settings_blog_flag_reverse = 'Fordított blog lista sorrendje';
 $lang_settings_blogmasonry = 'Engedélyezze a blog masonry elrendezését';
 
 // Settings: RSS
@@ -357,6 +373,8 @@ $lang_settings_formredirect = 'Átirányítani a köszönetet';
 $lang_settings_formredirect_tooltip = 'http://sajatwebhely.hu/kosz';
 $lang_settings_formcomment = 'Szöveg/Címke megjegyzésekhez';
 $lang_settings_formcommentname_tooltip = 'Megjegyzés';
+$lang_settings_form_gdpr = 'GDPR bemenet';
+$lang_settings_form_gdpr_name_tooltip = 'GDPR';
 $lang_settings_formphone = 'Szöveg/Címke telefonhoz';
 $lang_settings_formphonename_tooltip = 'Telefon';
 
@@ -397,6 +415,11 @@ $lang_settings_title_customposts = 'Saját bejegyzések';
 $lang_settings_managecustomposts = 'Egyéni bejegyzések kezelése';
 $lang_settings_themeuploader = 'Tölts fel egy új témát ZIP fájl';
 $lang_settings_pluginuploader = 'Új plugin ZIP fájl feltöltése';
+$lang_settings_title_debug_info  = 'Információk kezelése';
+$lang_settings_manage_debug_info = 'Kezelje a információkat';
+$lang_settings_manage_log_viewer = 'Naplómegjelenítő';
+$lang_settings_title_update  = 'Frissítés';
+$lang_settings_manage_update = 'Frissítés';
 
 // Settings: Media
 $lang_settings_mediaupload = 'Médiafájl feltöltése';
@@ -411,10 +434,6 @@ $lang_settings_navigation_non_pulse_url  = 'URL';
 $lang_settings_navigation_activate = 'Aktiválja';
 $lang_settings_navigation_add_menu = "Menü hozzáadása";
 $lang_settings_navigation_menus = "Menük";
-$lang_settings_title_debug_info  = 'Hibakeresés';
-$lang_settings_manage_debug_info = 'Hibakeresés';
-$lang_settings_title_update  = 'Frissítés';
-$lang_settings_manage_update = 'Frissítés';
 
 // Settings: Custom Post Type
 $lang_settings_custompostentries = 'Egyéni bejegyzéstípus bejegyzések:';
@@ -437,6 +456,10 @@ $lang_settings_custompostdeftype = 'Típus';
 $lang_settings_custompostdeffield = 'Terület';
 $lang_settings_custompostcontent = 'Tartalom';
 
+// log viewer
+$lang_settings_log_viewer_log_files   = 'Naplófájlok';
+$lang_settings_log_viewer_log_content = 'Naplóbejegyzések';
+
 // Tags
 $lang_settings_title_tags = 'Címkék';
 $lang_settings_manage_tags = 'Címkék kezelése';
@@ -444,6 +467,21 @@ $lang_settings_tags_title = 'A címkék kezelése';
 $lang_settings_tags_subtitle = 'Címkék és leírások hozzáadása / törlése.';
 $lang_settings_tags_name = 'Név';
 $lang_settings_tags_description = 'Leírás';
+
+// Template Strings
+$lang_settings_title_template_strings = 'Sablon szöveg';
+$lang_settings_template_string_admin_login_welcome_tooltip = 'Rendszergazda bejelentkezés, üdvözlő szöveg. Jelenlegi: Hello! Felhasználó Pulse';
+$lang_settings_template_string_admin_login_welcome = 'Bejelentkezés üdvözlő szöveg';
+
+// User List
+$lang_settings_title_user_list = 'Felhasználói lista';
+$lang_settings_manage_user_list = 'Felhasználói lista kezelése';
+$lang_settings_user_list_title = 'Felhasználók kezelése';
+$lang_settings_user_list_subtitle = 'Felhasználók hozzáadása / törlése';
+$lang_settings_user_list_acl_role = 'Felhasználói szerepkör';
+$lang_settings_user_list_otp_activate = 'Aktiválja az OTP-t';
+$lang_settings_user_list_password = 'Jelszó';
+$lang_settings_user_list_username = 'Felhasználónév';
 
 // Search
 $lang_search_title = 'Keresés';
