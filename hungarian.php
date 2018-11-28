@@ -239,7 +239,10 @@ $lang_settings_css_tooltip = 'Illessze be ide a CSS-et';
 $lang_settings_js = 'A JS felülírja az egész webhelyet';
 $lang_settings_js_tooltip = 'Illessze be itt a JS-t';
 
-//// Settings: GDPR
+// Settings: Avatar
+$lang_settings_avatar_upload = 'Avatar feltöltése';
+
+// Settings: GDPR
 $lang_settings_title_gdpr = 'GDPR';
 $lang_settings_gdpr_enable_in_form = 'Engedélyezze a GDPR-t az űrlapon';
 
@@ -472,6 +475,17 @@ $lang_settings_tags_description = 'Leírás';
 $lang_settings_title_template_strings = 'Sablon szöveg';
 $lang_settings_template_string_admin_login_welcome_tooltip = 'Rendszergazda bejelentkezés, üdvözlő szöveg. Jelenlegi: Hello! Felhasználó Pulse';
 $lang_settings_template_string_admin_login_welcome = 'Bejelentkezés üdvözlő szöveg';
+
+// User Group List
+$lang_settings_title_user_group_list  = 'Felhasználói csoportlista';
+$lang_settings_manage_user_group_list = 'Felhasználói csoportlista kezelése';
+$lang_settings_user_group_list_title = 'Csoportok kezelése';
+$lang_settings_user_group_list_subtitle = 'Csoportok hozzáadása/törlése';
+$lang_settings_user_group_list_group_name  = 'Csoport név';
+$lang_settings_user_group_list_permissions = 'Hozzáférési jogosultságok';
+$lang_settings_user_group_list_read = 'Olvasás';
+$lang_settings_user_group_list_read_write = 'Olvasás/írás';
+$lang_settings_user_group_list_access_denied = 'Az elemhez való hozzáférés megtagadva';
 
 // User List
 $lang_settings_title_user_list = 'Felhasználói lista';
