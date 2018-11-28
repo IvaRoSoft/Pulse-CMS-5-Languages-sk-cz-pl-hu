@@ -239,6 +239,9 @@ $lang_settings_css_tooltip = 'Wklej swój CSS tutaj';
 $lang_settings_js = 'Nadpisywanie JS dla całej witryny';
 $lang_settings_js_tooltip = 'Wklej tutaj JS';
 
+// Settings: Avatar
+$lang_settings_avatar_upload = 'Przesyłanie avatara';
+
 // Settings: GDPR
 $lang_settings_title_gdpr = 'GDPR';
 $lang_settings_gdpr_enable_in_form = 'Włącz GDPR w tagu formularza';
@@ -472,6 +475,17 @@ $lang_settings_tags_description = 'Opis';
 $lang_settings_title_template_strings = 'Tekst szablonu';
 $lang_settings_template_string_admin_login_welcome_tooltip = 'Wszystko w znaczniku zakresu jest podświetlone. Bieżąca: Cześć! Użytkownik Pulse';
 $lang_settings_template_string_admin_login_welcome = 'Cześć! Użytkownik Pulse';
+
+// User Group List
+$lang_settings_title_user_group_list  = 'Lista grup użytkowników';
+$lang_settings_manage_user_group_list = 'Zarządzaj listą grup użytkowników';
+$lang_settings_user_group_list_title = 'Zarządzaj grupami';
+$lang_settings_user_group_list_subtitle = 'Dodaj/usuń grupy';
+$lang_settings_user_group_list_group_name  = 'Nazwa grupy';
+$lang_settings_user_group_list_permissions = 'Uzyskaj uprawnienia';
+$lang_settings_user_group_list_read = 'Czytać';
+$lang_settings_user_group_list_read_write = 'Odczyt/zapis';
+$lang_settings_user_group_list_access_denied = 'Dostęp do tego elementu jest zabroniony';
 
 // User List
 $lang_settings_title_user_list = 'Lista użytkowników';
