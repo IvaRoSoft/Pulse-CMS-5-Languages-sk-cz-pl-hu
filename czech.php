@@ -239,6 +239,9 @@ $lang_settings_css_tooltip = 'Vložte svůj CSS zde';
 $lang_settings_js = 'Přepis JS pro celé stránky';
 $lang_settings_js_tooltip = 'Vložte JS sem';
 
+// Settings: Avatar
+$lang_settings_avatar_upload = 'Nahrát Avatar';
+
 // Settings: GDPR
 $lang_settings_title_gdpr = 'GDPR';
 $lang_settings_gdpr_enable_in_form = 'Povolit GDPR ve formuláři';
@@ -472,6 +475,17 @@ $lang_settings_tags_description = 'Popis';
 $lang_settings_title_template_strings = 'Název šablony';
 $lang_settings_template_string_admin_login_welcome_tooltip = 'Přihlašování správce, text přivítání. Aktuální: Dobrý den! Uživatel Pulse';
 $lang_settings_template_string_admin_login_welcome = 'Dobrý den! Uživatel Pulse';
+
+// User Group List
+$lang_settings_title_user_group_list  = 'Seznam skupin uživatelů';
+$lang_settings_manage_user_group_list = 'Správa seznamu skupin uživatelů';
+$lang_settings_user_group_list_title = 'Správa skupin';
+$lang_settings_user_group_list_subtitle = 'Přidat/Smazat skupiny';
+$lang_settings_user_group_list_group_name  = 'Skupinové jméno';
+$lang_settings_user_group_list_permissions = 'Přístupová oprávnění';
+$lang_settings_user_group_list_read = 'Číst';
+$lang_settings_user_group_list_read_write = 'Čtení/zápis';
+$lang_settings_user_group_list_access_denied = 'Přístup k této položce byl zamítnut';
 
 // User List
 $lang_settings_title_user_list = 'Seznam uživatelů';
