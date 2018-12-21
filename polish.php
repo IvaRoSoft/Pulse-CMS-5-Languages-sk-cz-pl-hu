@@ -12,7 +12,7 @@
 $lang_cancel = "Anuluj";
 $lang_duplicate = "Duplikat";
 $lang_help = "Pomoc";
-$lang_help_url = "https://help.pulsecms.com/";
+$lang_help_url = "https://www.pulsecms.com/help/";
 $lang_settings = "Ustawienia";
 $lang_account = "Konto";
 $lang_save = "Zapisz";
@@ -37,7 +37,7 @@ $lang_login_forgot_password_email_body =<<<EOD
 
   Hasło Pulse jest PASSWORD
 EOD;
-$lang_login_forgot_password_email_subject_line = "Zapomniałeś hasło Pulse?";
+$lang_login_forgot_password_email_subject_line = "Zapomnia&#322;e&#x15b; has&#322;o Pulse?";
 $lang_login_incorrect = "Twoje hasło jest Nieprawidłowe";
 $lang_login_password = "Hasło";
 $lang_login_button = "Zaloguj";
@@ -496,6 +496,8 @@ $lang_settings_user_list_acl_role = 'Rola użytkownika';
 $lang_settings_user_list_otp_activate = 'Aktywuj OTP';
 $lang_settings_user_list_password = 'Hasło';
 $lang_settings_user_list_username = 'Nazwa Użytkownika';
+
+$lang_settings_user_list_error_no_group = 'Proszę dodać grupę użytkowników do nowego użytkownika';
 
 // Search - Szukanie
 $lang_search_title = 'Szukanie';
