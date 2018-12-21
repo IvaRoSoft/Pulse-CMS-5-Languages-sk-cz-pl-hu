@@ -12,7 +12,7 @@
 $lang_cancel = "Zrušiť";
 $lang_duplicate = "Duplikát";
 $lang_help = "Pomocník";
-$lang_help_url ="https://help.pulsecms.com/";
+$lang_help_url ="https://www.pulsecms.com/help/";
 $lang_settings = "Nastavenie";
 $lang_account = "Účet";
 $lang_save = "Uložiť";
@@ -20,7 +20,7 @@ $lang_rename_btn = "Premenovať";
 $lang_title = "Pulse CMS";  /* Názov admin stránky */
 
 // Auto backup - Automatické zálohovanie
-$lang_autobackup_email_subject_line = 'Pulse automatické zálohovanie, pripomienka';
+$lang_autobackup_email_subject_line = 'Pulse automatick&eacute; z&aacute;lohovanie, z&aacute;loha';
 $lang_autobackup_email_text =<<<EOD
 Dobrý deň,
 
@@ -37,7 +37,7 @@ $lang_login_forgot_password_email_body =<<<EOD
 	
 	Vaše heslo pre Pulse je PASSWORD
 EOD;
-$lang_login_forgot_password_email_subject_line = "Zabudli ste vaše heslo pre Pulse?"; 
+$lang_login_forgot_password_email_subject_line = "Zabudli ste va&scaron;e heslo pre Pulse?"; 
 $lang_login_incorrect = "Vaše helo je nesprávne!";
 $lang_login_password = "Heslo";
 $lang_login_button = "Prihlásenie";
@@ -496,6 +496,8 @@ $lang_settings_user_list_acl_role = 'Užívateľská úloha';
 $lang_settings_user_list_otp_activate = 'Aktivujte OTP';
 $lang_settings_user_list_password = 'Heslo';
 $lang_settings_user_list_username = 'Meno užívateľa';
+
+$lang_settings_user_list_error_no_group = 'Prosím, pridajte skupinu užívateľov k novému užívateľovi';
 
 // Search
 $lang_search_title = 'Vyhľadávanie';
