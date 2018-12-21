@@ -4,7 +4,7 @@
 $lang_cancel = "Cancel";
 $lang_duplicate = "Duplicate";
 $lang_help = "Help";
-$lang_help_url ="https://help.pulsecms.com/";
+$lang_help_url ="https://www.pulsecms.com/help/";
 $lang_settings = "Settings";
 $lang_account = "Account";
 $lang_save = "Save";
@@ -488,6 +488,8 @@ $lang_settings_user_list_acl_role = 'User Role';
 $lang_settings_user_list_otp_activate = 'Activate OTP';
 $lang_settings_user_list_password = 'Password';
 $lang_settings_user_list_username = 'Username';
+
+$lang_settings_user_list_error_no_group = 'Please add a user group to the new user';
 
 // Search
 $lang_search_title = 'Search';
