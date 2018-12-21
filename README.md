@@ -1,14 +1,14 @@
-# Pulse CMS 5.2.0 Languages
-Language files for Pulse CMS 5.2.0
+# Pulse CMS 5.2.2 Languages
+Language files for Pulse CMS 5.2.2
 Languages:
 Slovak
 Czech
 Polish
 Hungarian
 
-(Completed translation 28.11.2018)
+(Completed translation 21.12.2018)
 
-(Dokončený preklad 28.11.2018)
+(Dokončený preklad 21.12.2018)
 
 Upresnenie.
 V preklade boli použité tieto skratky a odkazy:
