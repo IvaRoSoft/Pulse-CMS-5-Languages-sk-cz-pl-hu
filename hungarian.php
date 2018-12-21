@@ -12,7 +12,7 @@
 $lang_cancel = "Mégse";
 $lang_duplicate = "Duplikálás";
 $lang_help = "Súgó";
-$lang_help_url = "https://help.pulsecms.com/";
+$lang_help_url = "https://www.pulsecms.com/help/";
 $lang_settings = "Beállítások";
 $lang_account = "Fiók";
 $lang_save = "Mentés";
@@ -20,7 +20,7 @@ $lang_rename_btn = "Átnevezés";
 $lang_title = "Pulse CMS";
 
 // Auto backup -  Auto mentés
-$lang_autobackup_email_subject_line = 'Pulse auto mentés emlékeztető';
+$lang_autobackup_email_subject_line = 'Pulse auto ment&eacute;s eml&eacute;keztet&#x151;';
 $lang_autobackup_email_text =<<<EOD
 Szia,
 
@@ -37,7 +37,7 @@ Szia,
 
 Az Pulse jelszava PASSWORD
 EOD;
-$lang_login_forgot_password_email_subject_line = "Elfelejtett Pulse jelszavát?";
+$lang_login_forgot_password_email_subject_line = "Elfelejtett Pulse jelszav&aacute;t?";
 $lang_login_incorrect = "A jelszó helytelen!";
 $lang_login_password = "Jelszó";
 $lang_login_button = "Bejelentkezés";
@@ -496,6 +496,8 @@ $lang_settings_user_list_acl_role = 'Felhasználói szerepkör';
 $lang_settings_user_list_otp_activate = 'Aktiválja az OTP-t';
 $lang_settings_user_list_password = 'Jelszó';
 $lang_settings_user_list_username = 'Felhasználónév';
+
+$lang_settings_user_list_error_no_group = 'Adjon hozzá egy felhasználói csoportot az új felhasználóhoz';
 
 // Search
 $lang_search_title = 'Keresés';
