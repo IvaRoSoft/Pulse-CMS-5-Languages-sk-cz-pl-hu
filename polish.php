@@ -37,7 +37,7 @@ $lang_login_forgot_password_email_body =<<<EOD
 
   Hasło Pulse jest PASSWORD
 EOD;
-$lang_login_forgot_password_email_subject_line = "Zapomnia&#322;e&#x15b; has&#322;o Pulse?";
+$lang_login_forgot_password_email_subject_line = "Zapomniałeś hasło Pulse?";
 $lang_login_incorrect = "Twoje hasło jest Nieprawidłowe";
 $lang_login_password = "Hasło";
 $lang_login_button = "Zaloguj";
