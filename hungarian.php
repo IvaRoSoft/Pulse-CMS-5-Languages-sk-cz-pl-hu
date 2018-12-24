@@ -20,7 +20,7 @@ $lang_rename_btn = "Átnevezés";
 $lang_title = "Pulse CMS";
 
 // Auto backup -  Auto mentés
-$lang_autobackup_email_subject_line = 'Pulse auto ment&eacute;s eml&eacute;keztet&#x151;';
+$lang_autobackup_email_subject_line = 'Pulse auto mentés emlékeztető';
 $lang_autobackup_email_text =<<<EOD
 Szia,
 
@@ -37,7 +37,7 @@ Szia,
 
 Az Pulse jelszava PASSWORD
 EOD;
-$lang_login_forgot_password_email_subject_line = "Elfelejtett Pulse jelszav&aacute;t?";
+$lang_login_forgot_password_email_subject_line = "Elfelejtett Pulse jelszavát?";
 $lang_login_incorrect = "A jelszó helytelen!";
 $lang_login_password = "Jelszó";
 $lang_login_button = "Bejelentkezés";
