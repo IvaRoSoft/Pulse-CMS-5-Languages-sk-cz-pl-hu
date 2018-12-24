@@ -20,7 +20,7 @@ $lang_rename_btn = "Přejmenovat";
 $lang_title = "Pulse CMS";    /* Název admin stránky */
 
 // Auto backup - Automatické zálohování
-$lang_autobackup_email_subject_line = 'Pulse automatick&eacute; z&aacute;lohov&aacute;n&iacute;';
+$lang_autobackup_email_subject_line = 'Pulse automatické zálohování';
 $lang_autobackup_email_text =<<<EOD
 Dobrý den,
 
@@ -37,7 +37,7 @@ $lang_login_forgot_password_email_body =<<<EOD
 	
 	Vaše heslo pro Pulse je PASSWORD
 EOD;
-$lang_login_forgot_password_email_subject_line = "Zapomn&ecaron;li jste heslo Pulse?"; 
+$lang_login_forgot_password_email_subject_line = "Zapomněli jste heslo Pulse?"; 
 $lang_login_incorrect = "Vaše heslo je nesprávné!";
 $lang_login_password = "Heslo";
 $lang_login_button = "Přihlášení";
